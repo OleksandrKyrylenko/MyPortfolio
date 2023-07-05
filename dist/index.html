@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>My Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230705203607">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css?_v=20230705203607' rel='stylesheet'>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- ================ ASIDE START ================ -->
+		<div class="aside">
+			<div class="aside__logo">
+				<a href="#"><span>P</span>ortfolio</a>
+			</div>
+			<button type="button" class="menu__icon icon-menu"><span></span></button>
+			<nav class="aside__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a class="active" href="#home"><i class='bx bx-home'></i>Home</a>
+					</li>
+					<li class="menu__item">
+						<a href="#about"><i class='bx bx-user'></i>About Me</a>
+					</li>
+					<li class="menu__item">
+						<a href="#education"><i class='bx bx-list-ul'></i>Education</a>
+					</li>
+					<li class="menu__item">
+						<a href="#portfolio"><i class='bx bx-briefcase'></i>Portfolio</a>
+					</li>
+					<li class="menu__item">
+						<a href="#contacts"><i class='bx bxs-message-rounded-dots'></i>Contacts</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- ================ ASIDE END ================ -->
+		<!-- ================ PAGE START ================ -->
+		<main class="page">
+			<!-- ================ PAGE__HOME START ================ -->
+			<section id="home" class="page__home active section home">
+				<div class="home__container">
+					<div class="home__row row">
+						<div class="home__info">
+							<h1 class="home__title title">Hi, I'm <span>Oleksandr Kyrylenko</span></h1>
+							<h3 class="home__position position">HTML Coder</h3>
+							<div class="home__text">
+								<p>
+									For over a year now, I have been developing my skills and practicing web development. I invite you to take a look at my portfolio.
+								</p>
+							</div>
+							<a target="_blank" href="files/CV-Kirilenko.pdf" download class="home__btn btn btn--1">Download CV</a>
+						</div>
+						<div class="home__image">
+							<picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="Image"></picture>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ================ PAGE__HOME END ================ -->
+			<!-- ================ PAGE__ABOUT-US START ================ -->
+			<section id="about" class="page__about-us section about-us">
+				<div class="about-us__container">
+					<div class="about-us__row row">
+						<h2 class="about-me__title title title--2">About <span>Me</span></h2>
+						<div class="about-me__column">
+							<div class="about-me__text text">
+								<p>
+									Hello! I'm Oleksandr, I'm 23 years old. I reside in Kyiv city. Currently, I work in the finance department of <a target="_blank" href="https://zakaz.ua/uk/">Zakaz.ua</a> company. In my free time from work, I engage in self-improvement, enjoy taking walks around the city, and going on road trips. I have an active mindset, I'm positive, sociable, and goal-oriented. I aspire to pursue a career in web development.
+								</p>
+							</div>
+							<div class="about-me__skills skills">
+								<h3 class="skills__title">My <span>Skills</span></h3>
+								<div class="scills__items">
+									<div class="scills__item item-scills">
+										<div class="item-scills__icon"><i class='html bx bxl-html5'></i></div>
+										<h4 class="item-scills__label">HTML</h4>
+										<div class="item-scills__button">
+											<a href="#" data-popup="#popup-html" class="item-scills__btn">View more <i class='bx bx-chevrons-right'></i></a>
+										</div>
+									</div>
+									<div class="scills__item item-scills">
+										<div class="item-scills__icon"><i class='css bx bxl-css3'></i></div>
+										<h4 class="item-scills__label">Css/Scss</h4>
+										<div class="item-scills__button">
+											<a href="#" data-popup="#popup-css" class="item-scills__btn">View more <i class='bx bx-chevrons-right'></i></a>
+										</div>
+									</div>
+									<div class="scills__item item-scills">
+										<div class="item-scills__icon"><i class='js bx bxl-javascript'></i></div>
+										<h4 class="item-scills__label">JavaScript</h4>
+										<div class="item-scills__button">
+											<a data-popup="#popup-js" href="#" class="item-scills__btn">View more <i class='bx bx-chevrons-right'></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ================ PAGE__ABOUT-US END ================ -->
+			<!-- ================ PAGE__EDUCATION START ================ -->
+			<section id="education" class="page__education section education">
+				<div class="education__container">
+					<div class="education__row row">
+						<h2 class="education__title title title--2">My <span>Way</span></h2>
+						<div class="education__items">
+							<h4 class="education__label">Education</h4>
+							<div class="education__item">
+								<div class="education__body">
+									<div class="education__content content-education">
+										<div class="content-education__item">
+											<div class="content-education__year"><i class='bx bxs-calendar'></i>2016 - 2020. Bachelor Degree</div>
+											<h3 class="content-education__label">
+												National University of Life and Environmental Sciences of Ukraine
+											</h3>
+											<div class="content-education__text">
+												<p>
+													<span>Program Subject Area: </span>
+													"Education and Computer-Integrated Technologies"
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="education__content content-education">
+										<div class="content-education__item">
+											<div class="content-education__year"><i class='bx bxs-calendar'></i>2020 - 2022. Master Degree</div>
+											<h3 class="content-education__label">
+												National University of Life and Environmental Sciences of Ukraine
+											</h3>
+											<div class="content-education__text">
+												<p>
+													<span>Program Subject Area: </span>
+													"Education and Computer-Integrated Technologies"
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="education__body">
+									<div class="education__content content-education">
+										<div class="content-education__item">
+											<div class="content-education__year"><i class='bx bxs-calendar'></i>01.09.2022 - 29.12.2022</div>
+											<div class="content-education__inner">
+												<a target="_blank" href="img/certificate1.png" class="content-education__label">
+													Course Freelancer LifeStyle
+												</a>
+											</div>
+											<div class="content-education__text">
+												<p>
+													<span>Technologies: </span>
+													HTML, CSS (SCSS), basis JavaScript
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="education__content content-education">
+										<div class="content-education__item">
+											<div class="content-education__year"><i class='bx bxs-calendar'></i>07.02.2023 - 09.05.2023</div>
+											<div class="content-education__inner">
+												<a target="_blank" href="img/certificate2.png" class="content-education__label">
+													JavaScript Course
+												</a>
+											</div>
+											<!-- <a target="_blank" href="img/certificate2.png" class="content-education__label">
+													JavaScript Course
+												</a> -->
+											<div class="content-education__text">
+												<p>
+													<span>Technologies: </span>
+													JavaScript
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ================ PAGE__EDUCATION END ================ -->
+			<!-- ================ PAGE__PORTFOLIO START ================ -->
+			<section id="portfolio" class="page__portfolio section portfolio">
+				<div class="portfolio__container">
+					<div class="portfolio__row">
+						<h2 class="education__title title title--2">My <span>Portfolio</span></h2>
+						<div class="portfolio__column">
+							<div class="portfolio__item">
+								<div class="portfolio__image">
+									<picture><source srcset="img/matoa.webp" type="image/webp"><img src="img/matoa.webp" alt="Matoa"></picture>
+								</div>
+								<div class="portfolio__info">
+									<h3 class="portfolio__label">Matoa</h3>
+								</div>
+								<a target="_blank" href="https://64a421843031d8107b23b4e9--neon-lebkuchen-1637a0.netlify.app/"></a>
+							</div>
+							<div class="portfolio__item">
+								<div class="portfolio__image">
+									<picture><source srcset="img/matoa.webp" type="image/webp"><img src="img/matoa.webp" alt="Pelekhagency"></picture>
+								</div>
+								<div class="portfolio__info">
+									<h3 class="portfolio__label">Pelekhagency</h3>
+								</div>
+								<a target="_blank" href="https://64a42239416b53109462db2f--comfy-boba-097086.netlify.app/home.html"></a>
+							</div>
+							<div class="portfolio__item">
+								<div class="portfolio__image">
+									<picture><source srcset="img/matoa.webp" type="image/webp"><img src="img/matoa.webp" alt="Your Meal"></picture>
+								</div>
+								<div class="portfolio__info">
+									<h3 class="portfolio__label">Your Meal</h3>
+								</div>
+								<a target="_blank" href="https://oleksandrkyrylenko.github.io/portfolioWork/all/your-meal/index.html"></a>
+							</div>
+							<div class="portfolio__item">
+								<div class="portfolio__image">
+									<picture><source srcset="img/matoa.webp" type="image/webp"><img src="img/matoa.webp" alt="Matoa"></picture>
+								</div>
+								<div class="portfolio__info">
+									<h3 class="portfolio__label">Proxylab</h3>
+								</div>
+								<a target="_blank" href="https://64a5a90f4f83cb0cdabd8188--papaya-chimera-54da4f.netlify.app/home.html"></a>
+							</div>
+							<div class="portfolio__item">
+								<div class="portfolio__image">
+									<picture><source srcset="img/matoa.webp" type="image/webp"><img src="img/matoa.webp" alt="Barbershop"></picture>
+								</div>
+								<div class="portfolio__info">
+									<h3 class="portfolio__label">Barbershop</h3>
+								</div>
+								<a target="_blank" href="https://64a550582355cf10ac5556e7--astounding-mooncake-8eeac8.netlify.app/"></a>
+							</div>
+							<div class="portfolio__item">
+								<div class="portfolio__image">
+									<picture><source srcset="img/matoa.webp" type="image/webp"><img src="img/matoa.webp" alt="Relvise"></picture>
+								</div>
+								<div class="portfolio__info">
+									<h3 class="portfolio__label">Relvise</h3>
+								</div>
+								<a target="_blank" href="https://64a54e971a0ac10ee314dd75--cosmic-bublanina-8fe747.netlify.app/"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ================ PAGE__PORTFOLIO END ================ -->
+			<!-- ================ PAGE__CONTACTS START ================ -->
+			<section id="contacts" class="page__contacts section contacts">
+				<div class="contacts__container">
+					<div class="contacts__row">
+						<div class="contacts-me__info">
+							<div class="contacts-me__item">
+								<h2 class="contacts-me__title title title--2">Contacts <span>Me!</span></h2>
+								<div class="contacts-me__label">Let's Work Together</div>
+							</div>
+							<div class="contacts-me__actions action">
+								<div class="action__phone">
+									<a href="tel:380932366106"><i class='bx bx-phone'></i>+380 93 236 6106</a>
+								</div>
+								<div class="action__email">
+									<a href="mailto:kirilenko9910@ukr.net"><i class='bx bx-envelope'></i>kirilenko9910@ukr.net</a>
+								</div>
+							</div>
+						</div>
+						<div class="contacts-me__form">
+							<form data-popup-message="#form-message" data-dev id="form" action="files/sendmail/sendmail.php" method="POST">
+								<div class="form__inner">
+									<div class="form__line">
+										<input id="name" type="text" required autocomplete="off" name="name" data-error="Error" placeholder="Enter Your Name" class="input">
+										<span class="focus"></span>
+									</div>
+									<div class="error"></div>
+								</div>
+								<div class="form__inner">
+									<div class="form__line">
+										<input id="email" type="email" required autocomplete="off" name="email" data-error="Error" placeholder="Enter Your E-mail" class="input">
+										<span class="focus"></span>
+									</div>
+									<div class="error"></div>
+								</div>
+								<div class="form__inner">
+									<div class="form__line">
+										<input type="tel" id="phone" required autocomplete="off" name="number" data-error="Error" placeholder="+38 (___) ___-__-__" class="input">
+										<span class="focus"></span>
+									</div>
+									<div class="error"></div>
+								</div>
+								<div class="form__inner">
+									<div class="form__line">
+										<textarea id="textarea" cols="10" required rows="6" name="message" placeholder="Enter Your Message" data-error="Error" class="input"></textarea>
+										<span class="focus"></span>
+									</div>
+									<div class="error"></div>
+								</div>
+								<button type="submit" class="button btn">Send</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ================ PAGE__CONTACTS END ================ -->
+		</main>
+		<!-- ================ PAGE END ================ -->
+		<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js?_v=20230705203607"></script>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрити</button>
+				<div class="popup__text">
+					Text
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ================== POPUP-FORM ===================== -->
+
+	<div id="form-message" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popap-form__inner">
+					<h3 class="form-popup__title">
+						Thank you. Form sent successfully
+					</h3>
+				</div>
+				<div class="form-popup__btn">
+					<button data-close type="button" class="popup-form__close btn">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ================== POPUP-HTML ===================== -->
+	<div id="popup-html" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__inner">
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+				<div class="popup__body">
+					<div class="popap__icon">
+						<i class='html bx bxl-html5'></i>
+					</div>
+					<ul class="item-scills__list">
+						<li><i class='bx bxs-check-circle'></i>Syntax.</li>
+						<li><i class='bx bxs-check-circle'></i>Content formatting.</li>
+						<li><i class='bx bxs-check-circle'></i>Semantics.</li>
+						<li><i class='bx bxs-check-circle'></i>Forms.</li>
+						<li><i class='bx bxs-check-circle'></i>Validity.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ================== POPUP-CSS ===================== -->
+	<div id="popup-css" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__inner">
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+				<div class="popup__body">
+					<div class="popap__icon">
+						<i class='css bx bxl-css3'></i>
+					</div>
+					<ul class="item-scills__list">
+						<li><i class='bx bxs-check-circle'></i>Selectors.</li>
+						<li><i class='bx bxs-check-circle'></i>Properties.</li>
+						<li><i class='bx bxs-check-circle'></i>Specificity and inheritance.</li>
+						<li><i class='bx bxs-check-circle'></i>Responsive.</li>
+						<li><i class='bx bxs-check-circle'></i>Positioning.</li>
+						<li><i class='bx bxs-check-circle'></i>Flexbox and Grid.</li>
+						<li><i class='bx bxs-check-circle'></i>Animation and transitions.</li>
+						<li><i class='bx bxs-check-circle'></i>SCSS preprocessors.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ================== POPUP-JS ===================== -->
+	<div id="popup-js" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__inner">
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+				<div class="popup__body">
+					<div class="popap__icon">
+						<i class='js bx bxl-javascript'></i>
+					</div>
+					<ul class="item-scills__list">
+						<li><i class='bx bxs-check-circle'></i>Data types.</li>
+						<li><i class='bx bxs-check-circle'></i>Object-Oriented Programming.</li>
+						<li><i class='bx bxs-check-circle'></i>Error handling.</li>
+						<li><i class='bx bxs-check-circle'></i>DOM.</li>
+						<li><i class='bx bxs-check-circle'></i>Asynchronous data processing.</li>
+						<li><i class='bx bxs-check-circle'></i>Modules.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230705203607"></script>
+</body>
+
+</html>
